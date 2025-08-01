@@ -3,6 +3,18 @@ public class Main {
 
         System.out.printf("Home Work 5");
 
+        int clientOS = 0;
+        switch (clientOS) {
+            case 0:
+                System.out.println(" Установите версию приложения для iOS по ссылке ");
+                break;
+            case 1:
+                System.out.println(" Установите версию приложения для Android по ссылке ");
+                break;
+            default:
+                System.out.println(" Операционная система не найдена ");
+        }
+
 
 
 
