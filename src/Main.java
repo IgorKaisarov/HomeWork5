@@ -44,13 +44,20 @@ public class Main {
             System.out.println("Год не может быть меньше 1585");
         }
 
+        System.out.printf(" Task 4 ");
 
 
+        int deliveryDistance = 50;
 
-
-
-
-
+        if (deliveryDistance > 100) {
+            System.out.println(" Доставки нет ");
+        } else if (deliveryDistance < 20) {
+            System.out.println(" Доставка сутки ");
+        } else if (deliveryDistance >= 20 && deliveryDistance <= 60) {
+            System.out.println(" Доставка двое суток ");
+        } else if (deliveryDistance > 60 && deliveryDistance <= 100) {
+            System.out.println(" Доставка трое суток ");
+        }
 
 
         System.out.printf(" Task 5 ");
@@ -80,10 +87,6 @@ public class Main {
             default:
                 System.out.println(" Такого месяца нет ");
         }
-
-
-
-
 
 
         for (int i = 1; i <= 5; i++) {
