@@ -17,15 +17,15 @@ public class Main {
 
         System.out.printf(" Task 2 ");
 
-        int clientOS1 = 0;
-        int clientDeviceYear = 2017;
-        if (clientOS1 == 1) ;
-        if (clientDeviceYear < 2015) {
+        int clientOS2 = 0;
+        int clientDeviceYear2 = 2017;
+        if (clientOS2 == 1) {
+        } else if (clientDeviceYear2 < 2015) {
             System.out.println(" Установите облегченную версию Android");
         } else {
             System.out.println(" Установите версию приложения для Android по ссылке");
-            if (clientOS1 == 0) ;
-            if (clientDeviceYear < 2015) {
+            if (clientOS2 == 0) {
+            } else if (clientDeviceYear2 < 2015) {
                 System.out.println(" Установите облегченную версию iOS");
             } else {
                 System.out.println(" Установите версию приложения для iOS по ссылке");
