@@ -17,20 +17,19 @@ public class Main {
 
         System.out.printf(" Task 2 ");
 
-        int clientOS2 = 0;
-        int clientDeviceYear2 = 2017;
-        if (clientOS2 == 1) {
-        } else if (clientDeviceYear2 < 2015) {
-            System.out.println(" Установите облегченную версию Android");
-        } else {
-            System.out.println(" Установите версию приложения для Android по ссылке");
-            if (clientOS2 == 0) {
-            } else if (clientDeviceYear2 < 2015) {
-                System.out.println(" Установите облегченную версию iOS");
-            } else {
-                System.out.println(" Установите версию приложения для iOS по ссылке");
-            }
+        int clientDeviceYear = 2010;
+        int clientOS1 = 0;
+
+        if (clientOS1 == 1 && clientDeviceYear >= 2015) {
+            System.out.println(" Установите версию приложения для Android по ссылке ");
+        } else if (clientOS1 == 0 && clientDeviceYear >=2015){
+            System.out.println(" Установите версию приложения для iOS по ссылке");
+        } else if (clientOS1 == 1 && clientDeviceYear < 2015) {
+            System.out.println(" Установите облегченную версию для Android ");
+        } else if (clientOS1 == 0 && clientDeviceYear < 2015) {
+            System.out.println(" Установите облегченную версию для iOS ");
         }
+
 
         System.out.printf(" Task 3 ");
 
